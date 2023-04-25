@@ -38,7 +38,8 @@ export function Card() {
                 </div>
 
                 <div className="range-slider">
-                    <input type="range" className="slider" value={range} step="10" min="0" max="200" onChange={(e) => setRange(e.target.value)} style={getBackgroundSize()} />
+                    <label for="slider-range" />
+                    <input type="range" id="slider-range" className="slider" value={range} step="10" min="0" max="200" onChange={(e) => setRange(e.target.value)} style={getBackgroundSize()} />
                 </div>
 
                 <div className="mobile-rate-type"> <div className="rate"> {displayYearly ? `$${amount ? amount : ""}` : `$${yearlyAmount ? yearlyAmount : ""}`}

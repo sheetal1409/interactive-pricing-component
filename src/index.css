@@ -201,9 +201,9 @@ input[type="range"]::-webkit-slider-runnable-track {
 .discount {
   font-size: 0.2em;
   color: hsl(15, 100%, 70%);
-  width: 10%;
+  width: 12%;
   height: 0.5em;
-  padding: 0.5em;
+  padding: 0.5em 0.75em;
   background-color: hsl(14, 92%, 95%);
   border-radius: 15px;
 }
